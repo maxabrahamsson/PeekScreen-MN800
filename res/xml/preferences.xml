@@ -1,0 +1,12 @@
+<PreferenceScreen	xmlns:android="http://schemas.android.com/apk/res/android"	
+					android:title="PeekScreen Preferences">
+	<CheckBoxPreference android:key="pluginEnabled"
+	                	android:title="Enabled"
+	                	android:order = "0"
+	                	android:defaultValue = "false"/>
+	<!--
+		Add your additional preferences here.
+	-->
+	<EditTextPreference android:key="MovementAcc" android:title="Movement per click (px)" android:order="2" android:defaultValue="32"/>
+	<EditTextPreference android:key="FrameSize" android:order="3" android:title="Frame size" android:defaultValue="256"/>
+</PreferenceScreen>
